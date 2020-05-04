@@ -12,18 +12,18 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
-        newMaterial += '<div class="desc">';
+        newMaterial += '<div class="card">';
 		newMaterial += '<h4>' + responseObject.pageData[i].aheader + '</h4>';
-        newMaterial += '<p>' + responseObject.pageData[i].sum + '</p>';
-		newMaterial += '<h4>' + responseObject.pageData[i].uno + '</h4>';
+        newMaterial += '<h3>' + responseObject.pageData[i].bheader + '</h3>';
+		newMaterial += '<h3>' + responseObject.pageData[i].uno + '</h3>';
 		newMaterial += '<p>' + responseObject.pageData[i].uno1 + '</p>';
-		newMaterial += '<ol>';
+		newMaterial += '<ul>';
 		newMaterial += '<li>' + responseObject.pageData[i].one + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].two + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].three + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].four + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].five + '</li>';
-		newMaterial += '</ol>';
+		newMaterial += '</ul>';
 		newMaterial += '<h4>' + responseObject.pageData[i].topheader + '</h4>';
 		newMaterial += '<b>' + responseObject.pageData[i].ll + '</b>';
 		newMaterial += '<ul>';
