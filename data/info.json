@@ -1,10 +1,10 @@
 {
     "pageData": [
 	    {
-		"dheader": "Course Summary",
-        "desc": "Course Detail ",
-		"objheader": "Name: Web Development",
-		"obj": "Number: CIS 376",
+		"aheader": "Course Summary",
+        "sum": "Course Detail ",
+		"uno": "Name: Web Development",
+		"uno1": "Number: CIS 376",
 		"one": "Section: 01",
 		"two": "Term: Spring 2020",
 		"three": "CRN: 20947",
