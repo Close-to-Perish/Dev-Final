@@ -42,7 +42,6 @@ xhr.onload = function() {
 		newMaterial += '<ul>';
 		newMaterial += '<li>' + responseObject.pageData[i].tres5 + '</li>';
 		newMaterial += '</ul>';
-		newMaterial += '</ul>';
 		newMaterial += '<b>' + responseObject.pageData[i].tres6 + '</b>';
 		newMaterial += '<ul>';
 		newMaterial += '<li>' + responseObject.pageData[i].tres7 + '</li>';
