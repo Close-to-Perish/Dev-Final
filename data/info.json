@@ -24,9 +24,13 @@
 		"tres7": "Office Hours: Tuesdays & Thursdays, 12pm-3pm",
 		"cuatro": "Course Description",
 		"cuatro1": "A fundamental  course  in  Web  Development  utilizing  contemporary  standards,  methods,  and tools  for  students  to  develop  skills  in  creating  and  deploying  web-based  content. Students learn development concepts spanning markup and programming languages and libraries, local and hosted environments, versioning control systems, and development tools.",
-		"cinco": "DevDocs, W3CSchools, CodeAcademy, Content Delivery Networks, Documentation, Templates",
-		"cinco1": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors",
-		"cinco2": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors",
+		"learn": "Course Learning Objectives",
+		"learnsub": "The objectives of this course are for students to:",
+		"learn1": "Relate web development concepts and terminology.",
+		"learn2": "Demonstrate the usage of web development technologies.",
+		"learn3": "Develop web-based content.",
+		"learn4": "Determine deficiencies in web-based interface design.",
+		"learn5": "Create improved web-based interfaces.",
 	    }
 	]
 }
