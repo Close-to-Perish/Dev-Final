@@ -12,7 +12,6 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
-        newMaterial += '<div class="desc">';
 		newMaterial += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
         newMaterial += '<p>' + responseObject.pageData[i].desc + '</p>';
 		newMaterial += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
@@ -49,7 +48,6 @@ xhr.onload = function() {
 		newMaterial += '<li>' + responseObject.pageData[i].trone + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].trtwo + '</li>';
 		newMaterial += '</ul>';
-        newMaterial += '</div>';
     }
 	
 	
