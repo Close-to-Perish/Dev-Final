@@ -12,7 +12,6 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
-        newMaterial += '<div class="card">';
 		newMaterial += '<h4>' + responseObject.pageData[i].aheader + '</h3>';
         newMaterial += '<h3>' + responseObject.pageData[i].bheader + '</h4>';
 	        newMaterial += '<ul>';
@@ -24,7 +23,7 @@ xhr.onload = function() {
 		newMaterial += '<li>' + responseObject.pageData[i].four + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].five + '</li>';
 		newMaterial += '</ul>';
-		newMaterial += '<h4>' + responseObject.pageData[i].topheader + '</h4>';
+		newMaterial += '<h4>' + responseObject.pageData[i].topheader + '</>';
 		newMaterial += '<b>' + responseObject.pageData[i].ll + '</b>';
 		newMaterial += '<ul>';
 		newMaterial += '<li><i>' + responseObject.pageData[i].list + '</i></li>';
@@ -49,7 +48,6 @@ xhr.onload = function() {
 		newMaterial += '<li>' + responseObject.pageData[i].trone + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].trtwo + '</li>';
 		newMaterial += '</ul>';
-        newMaterial += '</div>';
     }
 	
 	
