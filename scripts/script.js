@@ -61,7 +61,7 @@ xhr.onload = function() {
  
 //------------------------------------------------------------------------------------
 // Prepare and Send Request
-xhr.open('GET', "https://thekaysev.github.io/final/data/final.json", true);
+xhr.open('GET', "https://thekaysev.github.io/Dev-Final/data/info.json", true);
 xhr.send(null);
 //------------------------------------------------------------------------------------
 
