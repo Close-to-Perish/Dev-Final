@@ -2,7 +2,7 @@
     "pageData": [
 	    {
 		"aheader": "Course Summary",
-        "sum": "Course Detail ",
+        "bheader": "Course Detail ",
 		"uno": "Name: Web Development",
 		"uno1": "Number: CIS 376",
 		"one": "Section: 01",
