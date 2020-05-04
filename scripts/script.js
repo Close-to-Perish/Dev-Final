@@ -59,11 +59,11 @@ xhr.onload = function() {
 };
  
  
-//------------------------------------------------------------------------------------
+
 // Prepare and Send Request
-xhr.open('GET', "https://close-to-perish.github.io/Dev-Final/data/page.json", true);
+xhr.open('GET', "https://close-to-perish.github.io/Dev-Final/data/info.json", true);
 xhr.send(null);
-//------------------------------------------------------------------------------------
+
 
 
 
