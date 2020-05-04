@@ -21,8 +21,8 @@
 		"tres4": "Email: bcumbie@una.edu",
 		"tres5": "Office: Keller #249",
 		"tres6": "Office Hours: Tuesdays & Thursdays, 12pm-3pm",
-		"indentthree": "Course Description",
-		"devheader": "A fundamental  course  in  Web  Development  utilizing  contemporary  standards,  methods,  and tools  for  students  to  develop  skills  in  creating  and  deploying  web-based  content. Students learn development concepts spanning markup and programming languages and libraries, local and hosted environments, versioning control systems, and development tools.",
+		"cuatro": "Course Description",
+		"cuatro1": "A fundamental  course  in  Web  Development  utilizing  contemporary  standards,  methods,  and tools  for  students  to  develop  skills  in  creating  and  deploying  web-based  content. Students learn development concepts spanning markup and programming languages and libraries, local and hosted environments, versioning control systems, and development tools.",
 		"trone": "DevDocs, W3CSchools, CodeAcademy, Content Delivery Networks, Documentation, Templates",
 		"trtwo": "GitHub, Command Line Interface, Wave, Browser Developer Tools, Keyboard Shortcuts, Code Editors"
 	    }
