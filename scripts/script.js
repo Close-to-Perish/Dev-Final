@@ -12,36 +12,42 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
-		newMaterial += '<h4>' + responseObject.pageData[i].aheader + '</h4>';
-        newMaterial += '<h5><u>' + responseObject.pageData[i].sum + '</u></h5>';
-		newMaterial += '<h4>' + responseObject.pageData[i].uno + '</h4>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno1 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno2 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno3 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno4 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno5 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].uno6 + '</p>';
-		newMaterial += '<h4>' + responseObject.pageData[i].uno7 + '</h4>';
-		newMaterial += '<b>' + responseObject.pageData[i].uno7 + '</b>';
-		newMaterial += '<p><i>' + responseObject.pageData[i].dos + '</i></p>';
-		newMaterial += '<b>' + responseObject.pageData[i].dos1 + '</b>';
-		newMaterial += '<p>' + responseObject.pageData[i].dos2 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].dos3 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres1 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres2 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres3 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres4 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres5 + '</p>';
-		newMaterial += '<b>' + responseObject.pageData[i].tres6 + '</b>';
-		newMaterial += '<p>' + responseObject.pageData[i].tres7 + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
-		newMaterial += '<p>' + responseObject.pageData[i].cuatro1 + '</p>';
-	    newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
-	    newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
-	    newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
-	    newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
-	    newMaterial += '<p>' + responseObject.pageData[i].cuatro + '</p>';
+		newMaterial += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
+        newMaterial += '<p>' + responseObject.pageData[i].desc + '</p>';
+		newMaterial += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
+		newMaterial += '<p>' + responseObject.pageData[i].obj + '</p>';
+		newMaterial += '<ol>';
+		newMaterial += '<li>' + responseObject.pageData[i].one + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].two + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].three + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].four + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].five + '</li>';
+		newMaterial += '</ol>';
+		newMaterial += '<h4>' + responseObject.pageData[i].topheader + '</h4>';
+		newMaterial += '<b>' + responseObject.pageData[i].ll + '</b>';
+		newMaterial += '<ul>';
+		newMaterial += '<li><i>' + responseObject.pageData[i].list + '</i></li>';
+		newMaterial += '</ul>';
+		newMaterial += '<b>' + responseObject.pageData[i].ks + '</b>';
+		newMaterial += '<ul>';
+		newMaterial += '<li>' + responseObject.pageData[i].ksone + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].kstwo + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].ksthree + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].ksfour + '</li>';
+		newMaterial += '<ul>';
+		newMaterial += '<li>' + responseObject.pageData[i].indentone + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].indenttwo + '</li>';
+		newMaterial += '</ul>';
+		newMaterial += '<li>' + responseObject.pageData[i].ksfive + '</li>';
+		newMaterial += '<ul>';
+		newMaterial += '<li>' + responseObject.pageData[i].indentthree + '</li>';
+		newMaterial += '</ul>';
+		newMaterial += '</ul>';
+		newMaterial += '<b>' + responseObject.pageData[i].devheader + '</b>';
+		newMaterial += '<ul>';
+		newMaterial += '<li>' + responseObject.pageData[i].trone + '</li>';
+		newMaterial += '<li>' + responseObject.pageData[i].trtwo + '</li>';
+		newMaterial += '</ul>';
     }
 	
 	
@@ -51,12 +57,9 @@ xhr.onload = function() {
 };
  
  
-//------------------------------------------------------------------------------------
+
 // Prepare and Send Request
 xhr.open('GET', "https://close-to-perish.github.io/Dev-Final/data/info.json", true);
 xhr.send(null);
-//------------------------------------------------------------------------------------
-
-
 
 
