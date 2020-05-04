@@ -41,12 +41,17 @@ xhr.onload = function() {
 		newMaterial += '<li>' + responseObject.infoData[i].tres6 + '</li>';
 	        newMaterial += '<li>' + responseObject.infoData[i].tres7 + '</li>';
 		newMaterial += '</ul>';
-		newMaterial += '<li>' + responseObject.infoData[i].cuatro + '</li>';
-		newMaterial += '<b>' + responseObject.infoData[i].cuatro1 + '</b>';
-		newMaterial += '<ul>';
-		newMaterial += '<li>' + responseObject.infoData[i].cinco + '</li>';
-		newMaterial += '<li>' + responseObject.infoData[i].cinco1 + '</li>';
-		newMaterial += '</ul>';
+		newMaterial += '<h4>' + responseObject.infoData[i].cuatro + '</h4>';
+		newMaterial += '<p>' + responseObject.infoData[i].cuatro1 + '</p>';
+		newMaterial += '<h4>' + responseObject.infoData[i].learn + '</h4>';
+		newMaterial += '<p>' + responseObject.infoData[i].learnsub + '</p>';
+	        newMaterial += '<ol>';
+	        newMaterial += '<li>' + responseObject.infoData[i].learn1 + '</li>';
+	        newMaterial += '<li>' + responseObject.infoData[i].learn2 + '</li>';
+	        newMaterial += '<li>' + responseObject.infoData[i].learn3 + '</li>';
+	        newMaterial += '<li>' + responseObject.infoData[i].learn4 + '</li>';
+	        newMaterial += '<li>' + responseObject.infoData[i].learn5 + '</li>';
+	        newMaterial += '</ol>';
     }
 	
 	
