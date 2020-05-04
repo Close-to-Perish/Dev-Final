@@ -12,6 +12,7 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
+        newMaterial += '<div class="desc">';
 		newMaterial += '<h4>' + responseObject.pageData[i].dheader + '</h4>';
         newMaterial += '<p>' + responseObject.pageData[i].desc + '</p>';
 		newMaterial += '<h4>' + responseObject.pageData[i].objheader + '</h4>';
@@ -48,6 +49,7 @@ xhr.onload = function() {
 		newMaterial += '<li>' + responseObject.pageData[i].trone + '</li>';
 		newMaterial += '<li>' + responseObject.pageData[i].trtwo + '</li>';
 		newMaterial += '</ul>';
+        newMaterial += '</div>';
     }
 	
 	
@@ -57,9 +59,11 @@ xhr.onload = function() {
 };
  
  
-
+//------------------------------------------------------------------------------------
 // Prepare and Send Request
 xhr.open('GET', "https://close-to-perish.github.io/Dev-Final/data/info.json", true);
 xhr.send(null);
+//------------------------------------------------------------------------------------
+
 
 
