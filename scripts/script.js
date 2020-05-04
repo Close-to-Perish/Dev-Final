@@ -12,7 +12,7 @@ xhr.onload = function() {
 	
 	//for loop throughout content
     for (var i = 0; i < responseObject.pageData.length; i++) {
-		newMaterial += '<h3>' + responseObject.pageData[i].aheader + '</h3>';
+		newMaterial += '<h3><u><b>' + responseObject.pageData[i].aheader + '</b></u></h3>';
         newMaterial += '<h4>' + responseObject.pageData[i].bheader + '</h4>';
 	        newMaterial += '<ul>';
 		newMaterial += '<li>' + responseObject.pageData[i].uno + '</li>';
