@@ -1,2 +1,2 @@
-# Dev-Final
-The Final Project for CIS 376, utilizing JS, CSS, and HTML
+# Semester-Project
+The Final Project for IST 1433, utilizing JS, CSS, and HTML
